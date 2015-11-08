@@ -1,0 +1,36 @@
+{
+  "name": "hns",
+  "author": "Gabriel Montalvo",
+  "homepage": "https://github.com/gmontalvoriv/hns",
+  "version": "1.0.1",
+  "description": "A command line tool to print out the latest stories on Hacker News to your terminal.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmontalvoriv/hns"
+  },
+  "bugs": {
+    "url": "https://github.com/gmontalvoriv/hns"
+  },
+  "main": "hns.js",
+  "bin": {
+    "hns": "hns.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hackernews",
+    "hn",
+    "hacker news api",
+    "cli"
+  ],
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "firebase": "^2.3.1",
+    "node-hn": "^1.0.0",
+    "prompt": "^0.2.14"
+  }
+}
