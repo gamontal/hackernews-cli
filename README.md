@@ -33,7 +33,7 @@ $ hns jobs -n 3
 
 **Notes**: 
 - Use `-n` to limit the number of posts displayed.
-- Press `Command(⌘) + double-click` to open links from the terminal on Mac OSX.
+- Press `Command(⌘) + double-click` to open links from the terminal on Mac OS X.
 
 ## TODO
 
