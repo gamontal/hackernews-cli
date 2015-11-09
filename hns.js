@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 'use strict';
-var hn = require('node-hn');
+var hn = require('node-hn'); // separate package containing the API requests (https://www.npmjs.com/package/node-hn)
 var cmd = require('commander');
 var pkg = require("./package.json");
 
