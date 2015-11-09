@@ -1,4 +1,6 @@
-#Y Combinator's Hacker News CLI
+#Y Combinator's Hacker News CLI 
+[![npm version](https://badge.fury.io/js/hns.svg)](https://badge.fury.io/js/hns)
+
 A command line tool to print out the latest stories on [Hacker News](https://news.ycombinator.com/) to your terminal.
 
 ##Features
