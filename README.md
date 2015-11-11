@@ -25,7 +25,7 @@ $ hns top -l 5
 
 ![](https://github.com/gmontalvoriv/hns/blob/master/screenshots/top.png)
 
-####Get the 3 most recent jobs
+####Get the 5 most recent jobs
 
 ```
 $ hns jobs -l 5
