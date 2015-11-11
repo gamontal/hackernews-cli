@@ -17,10 +17,10 @@ $ npm install --global hns
 ##Usage Examples
 Typing `hns --help` will list all the available commands. You can type `hns --help TASK` to get help for a specific command.
 
-####Get the latest top 3 posts
+####Get the latest top 5 posts
 
 ```
-$ hns top -n 3
+$ hns top -l 5
 ```
 
 ![](https://github.com/gmontalvoriv/hns/blob/master/screenshots/top.png)
@@ -28,13 +28,13 @@ $ hns top -n 3
 ####Get the 3 most recent jobs
 
 ```
-$ hns jobs -n 3
+$ hns jobs -l 5
 ```
 
 ![](https://github.com/gmontalvoriv/hns/blob/master/screenshots/job.png)
 
 **Notes**: 
-- Use `-n` to limit the number of posts displayed.
+- Use `-l` to limit the number of posts displayed.
 - Press `Command(⌘) + double-click` to open links from the terminal on Mac OS X.
 
 ## TODO
