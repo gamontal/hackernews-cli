@@ -15,7 +15,7 @@ $ npm install --global hns
 ```
 
 ##Usage Examples
-Typing `hns --help` will list all the available commands. You can type `hns --help TASK` to get help for a specific command.
+Typing `hns --help` will list all the available commands.
 
 ####Get the latest top 5 posts
 
