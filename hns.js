@@ -15,7 +15,7 @@ cmd
   .description('List Top stories')
   .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
   .action(function (op) {
-          post_limit = op.limit
+          post_limit = op.limit;
           hn.topstories(post_limit);
   });
 
@@ -24,7 +24,7 @@ cmd
   .description('List New stories')
   .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
   .action(function (op) {
-          post_limit = op.limit
+          post_limit = op.limit;
           hn.newstories(post_limit);
   });
 
@@ -33,7 +33,7 @@ cmd
   .description('List Show HN stories')
   .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
   .action(function (op) {
-          post_limit = op.limit
+          post_limit = op.limit;
           hn.showstories(post_limit);
   });
 
@@ -42,7 +42,7 @@ cmd
   .description('List Ask HN stories')
   .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
   .action(function (op) {
-          post_limit = op.limit
+          post_limit = op.limit;
           hn.askstories(post_limit);
   });
 
@@ -51,7 +51,7 @@ cmd
   .description('List Job stories')
   .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
   .action(function (op) {
-          post_limit = op.limit
+          post_limit = op.limit;
           hn.jobstories(post_limit);
   });
 
