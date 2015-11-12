@@ -5,55 +5,34 @@ var hn = require('node-hn');
 var cmd = require('commander');
 var pkg = require("./package.json");
 
-var post_limit;
 cmd
-  .usage('<command> [option]')
+  .usage('<command> [-l LIMIT]')
   .version(pkg.version)
+  .option("-l, --limit [number]", "limit the number of posts to be displayed", /^[0-9]+$/)
 
 cmd
   .command('top')
-  .description('List Top stories')
-  .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
-  .action(function (op) {
-          post_limit = op.limit;
-          hn.topstories(post_limit);
-  });
+  .description('Top stories')
+  .action(function () { hn.topstories(cmd.limit); });
 
 cmd
   .command('new')
-  .description('List New stories')
-  .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
-  .action(function (op) {
-          post_limit = op.limit;
-          hn.newstories(post_limit);
-  });
+  .description('New stories')
+  .action(function () { hn.newstories(cmd.limit); });
 
 cmd
   .command('show')
-  .description('List Show HN stories')
-  .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
-  .action(function (op) {
-          post_limit = op.limit;
-          hn.showstories(post_limit);
-  });
+  .description('Show HN stories')
+  .action(function () { hn.showstories(cmd.limit); });
 
 cmd
   .command('ask')
-  .description('List Ask HN stories')
-  .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
-  .action(function (op) {
-          post_limit = op.limit;
-          hn.askstories(post_limit);
-  });
+  .description('Ask HN stories')
+  .action(function () { hn.askstories(cmd.limit); });
 
 cmd
   .command('jobs')
-  .description('List Job stories')
-  .option("-l, --limit [number]", "Limit query results", /^[0-9]+$/)
-  .action(function (op) {
-          post_limit = op.limit;
-          hn.jobstories(post_limit);
-  });
-
+  .description('Job stories')
+  .action(function () { hn.jobstories(cmd.limit); });
 
 cmd.parse(process.argv);
