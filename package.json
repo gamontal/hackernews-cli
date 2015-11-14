@@ -2,7 +2,7 @@
   "name": "hns",
   "author": "Gabriel Montalvo",
   "homepage": "https://github.com/gmontalvoriv/hns",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A command line tool to print out the latest stories on Hacker News to your terminal.",
   "repository": {
     "type": "git",
@@ -27,10 +27,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "dependencies": {
-    "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "firebase": "^2.3.1",
-    "node-hn": "^1.0.3",
-    "prompt": "^0.2.14"
+    "node-hn": "^1.0.3"
   }
 }
