@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 'use strict';
-var hn = require('node-hn');
+var hn = require('./lib/api');
 var cmd = require('commander');
 var pkg = require("./package.json");
 

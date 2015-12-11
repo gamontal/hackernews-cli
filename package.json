@@ -27,7 +27,8 @@
   "license": "MIT",
   "preferGlobal": true,
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "node-hn": "^1.0.3"
+    "firebase": "^2.3.2"
   }
 }
