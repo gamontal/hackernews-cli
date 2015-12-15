@@ -2,6 +2,7 @@
 [![npm version](https://img.shields.io/npm/v/hns.svg?style=flat)](https://www.npmjs.com/package/hns) 
 [![npm](https://img.shields.io/npm/l/express.svg)](http://opensource.org/licenses/MIT)
 [![npm downloads](https://img.shields.io/npm/dt/hns.svg?style=flat)](https://www.npmjs.com/package/hns)
+[![Build Status](https://travis-ci.org/gmontalvoriv/hns.svg)](https://travis-ci.org/gmontalvoriv/hns)
 
 A command line tool to print out the latest stories on [Hacker News](https://news.ycombinator.com/) to your terminal.
 
