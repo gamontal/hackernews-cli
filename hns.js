@@ -10,22 +10,22 @@ var cmdVal; // command value
 cmd
   .usage('<command> [-l LIMIT]')
   .version(pkg.version)
-  .option('-l, --limit [number]', 'limit the number of posts to be displayed', /^[0-9]+$/)
+  .option('-l, --limit [number]', 'limit the number of posts to be displayed', /^[0-9]+$/);
 cmd
   .command('top')
-  .description('Top stories')
+  .description('Top stories');
 cmd
   .command('new')
-  .description('New stories')
+  .description('New stories');
 cmd
   .command('show')
-  .description('Show HN stories')
+  .description('Show HN stories');
 cmd
   .command('ask')
-  .description('Ask HN stories')
+  .description('Ask HN stories');
 cmd
   .command('jobs')
-  .description('Job stories')
+  .description('Job stories');
 cmd
   .arguments('<cmd>')
   .action(function (cmd) { cmdVal = cmd; });
