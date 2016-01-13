@@ -2,7 +2,7 @@
   "name": "hns",
   "author": "Gabriel Montalvo",
   "homepage": "https://github.com/gmontalvoriv/hackernews-cli",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A command line tool to print out the latest stories on Hacker News to your terminal.",
   "repository": {
     "type": "git",
